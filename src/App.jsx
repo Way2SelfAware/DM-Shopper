@@ -1,16 +1,21 @@
-import { useState } from 'react'
-import './App.css'
+// React Imports
+import { useState } from "react";
+import "./App.css";
+// My Imports
+import Header from "./components/common/header";
+import Footer from "./components/common/footer";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-    <div className="title">
-      Welcome to DM Shopkeeper!
-    </div>
+      <header>
+        <Header />
+      </header>
+      <footer>
+        <Footer />
+      </footer>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

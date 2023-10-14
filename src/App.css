@@ -1,20 +1,28 @@
 #root {
-  align-items: center;
-  flex: auto;
+  align-content: center;
 }
 
 .header {
   background-color: red;
+  border-style: dotted;
+  border-color: black;
 }
 
-.shopTitle {}
+.shopTitle {
+  background-color: white;
+  border-style: dotted;
+  border-color: black;
+}
 
 .navbar {
   background-color: blue;
+  border-style: dotted;
+  border-color: black;
 
 }
 
 .footer {
   background-color: yellow;
-
+  border-style: dotted;
+  border-color: black;
 }

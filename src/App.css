@@ -1,28 +1,29 @@
 #root {
-  align-content: center;
+  margin: auto;
+  width: 50%;
 }
 
 .header {
-  background-color: red;
+  /* background-color: red;
   border-style: dotted;
-  border-color: black;
+  border-color: black; */
 }
 
 .shopTitle {
-  background-color: white;
+  /* background-color: white;
   border-style: dotted;
-  border-color: black;
+  border-color: black; */
 }
 
 .navbar {
-  background-color: blue;
+  /* background-color: blue;
   border-style: dotted;
-  border-color: black;
+  border-color: black; */
 
 }
 
 .footer {
-  background-color: yellow;
+  /* background-color: yellow;
   border-style: dotted;
-  border-color: black;
+  border-color: black; */
 }

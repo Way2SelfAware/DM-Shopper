@@ -1,9 +1,8 @@
-import React from 'react'
+Pimport React from 'react'
 
-const productDetail = () => {
+const ProductDetail = () => {
   return (
-    <div>productDetail</div>
-  )
+    <div>Product Detail</div>P  )
 }
 
-export default productDetail
+export default ProductDetail

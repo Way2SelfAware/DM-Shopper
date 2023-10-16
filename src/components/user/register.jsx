@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
 
-const register = () => {
+const Register = () => {
   return (
-    <div>register</div>
-  )
-}
+    <div>
+      {/* Potentially add in formdata? */}
+      <form>
+        <input type="text" label="Username"></input> <br />
+        <input type="text" label="Password"></input> <br />
+        <input type="text" label="Character Name"></input> <br />
+      </form>
+    </div>
+  );
+};
 
-export default register
+export default Register;

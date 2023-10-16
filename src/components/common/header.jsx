@@ -4,14 +4,7 @@ import React from "react";
 import Navbar from "./navbar";
 
 const Header = () => {
-  return (
-    <div className="header">
-      <h1 className="shopTitle">Dungeons & Markets</h1>
-      <nav>
-        <Navbar />
-      </nav>
-    </div>
-  );
+  return <div>Header</div>;
 };
 
 export default Header;

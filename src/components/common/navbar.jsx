@@ -6,23 +6,17 @@ import { Outlet, Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
-      <h1 className="shopTitle">Dungeons & Markets</h1>
-      <nav className="navbar">
-        <ul>
-          <li>
+      <div className="top-nav-title">
+        <h1 className="shopTitle">Dungeons & Markets</h1>
+        <nav className="navbar">
+          <p className="nav-links">
             <Link to="/">Home</Link>
-          </li>
-          <li>
             <Link to="/loginPage">Login</Link>
-          </li>
-          <li>
             <Link to="/registerPage">Register</Link>
-          </li>
-          <li>
             <Link to="/productPage">Products</Link>
-          </li>
-        </ul>
-      </nav>
+          </p>
+        </nav>
+      </div>
 
       <Outlet />
     </>

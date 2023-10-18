@@ -3,6 +3,12 @@
   width: 50%;
 }
 
+.top-nav-title {
+  position: fixed;
+  margin: auto;
+  bottom: 75%;
+}
+
 .header {
   /* background-color: red;
   border-style: dotted;
@@ -16,11 +22,14 @@
 }
 
 .navbar {
-  /* background-color: blue;
-  border-style: dotted;
-  border-color: black; */
-
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1em;
 }
+
+.nav-links {}
 
 .footer {
   /* background-color: yellow;

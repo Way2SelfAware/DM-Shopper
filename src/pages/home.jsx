@@ -1,8 +1,7 @@
 // React Imports
 import React from "react";
 // My Imports
-import Header from "../components/common/header";
-import Footer from "../components/common/footer";
+
 
 const Home = () => {
   return (

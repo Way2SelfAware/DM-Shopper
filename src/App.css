@@ -23,10 +23,10 @@
 
 .navbar {
   overflow: hidden;
-  flex-direction: row;
-  justify-content: space-around;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  padding: 1em;
+  gap: 2em;
 }
 
 .nav-links {}
@@ -35,4 +35,10 @@
   /* background-color: yellow;
   border-style: dotted;
   border-color: black; */
+}
+
+/* Product List Equipment Page */
+.equipment-list {
+  display: flex;
+
 }

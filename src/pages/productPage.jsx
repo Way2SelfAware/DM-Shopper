@@ -1,9 +1,13 @@
-import React from 'react'
-
+// React Hooks
+import React from "react";
+// My Imports
+import ProductListEquipment from "../components/product/ProductListEquipment";
 const ProductPage = () => {
   return (
-    <div>Product Page</div>
-  )
-}
+    <div className="equipment-list">
+      <ProductListEquipment />
+    </div>
+  );
+};
 
-export default ProductPage
+export default ProductPage;

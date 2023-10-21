@@ -1,11 +1,11 @@
 // React Hooks
 import React from "react";
 // My Imports
-import ProductListEquipment from "../components/product/ProductListEquipment";
+import CategoryList from "../components/product/CategoryList";
 const ProductPage = () => {
   return (
-    <div className="equipment-list">
-      <ProductListEquipment />
+    <div className="categories-list">
+      <CategoryList />
     </div>
   );
 };

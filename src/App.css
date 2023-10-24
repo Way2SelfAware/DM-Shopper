@@ -85,3 +85,24 @@
 .dropdown:hover .dropbtn {
   background-color: #472102;
 }
+
+/* Register Page Styling */
+.regbtn, .logbtn {
+  background-color: #472102;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  justify-content: space-around;
+}
+
+.regbtn:hover, .logbtn:hover {
+  background-color: black;
+}
+
+.register-form {
+  justify-content: space-between;
+  margin: auto;
+  width: 50%;
+}

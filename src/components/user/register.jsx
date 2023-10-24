@@ -1,21 +1,23 @@
+// React Hook
 import React from "react";
+// My Imports
 
 const Register = () => {
   return (
     <div>
       {/* Potentially add in formdata? */}
-      <form>
-        <input type="text" label="Username" placeholder="Username"></input>
+      <form className="register-form">
+        <input type="text" label="Username" placeholder="Character Name"></input>
         <br />
         <input type="text" label="Password" placeholder="Password"></input>
         <br />
-        <input
+        {/* <input
           type="text"
           label="Character Name"
           placeholder="Charater Name"
-        ></input>
+        ></input> */}
         <br />
-        <button>Register</button>
+        <button className="regbtn">Register</button>
         <br />
       </form>
     </div>

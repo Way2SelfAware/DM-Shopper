@@ -29,7 +29,10 @@
   gap: 2em;
 }
 
-.nav-links {}
+.nav-links {
+  display: flex;
+  flex-direction: row;
+}
 
 .footer {
   /* background-color: yellow;
@@ -87,7 +90,8 @@
 }
 
 /* Register Page Styling */
-.regbtn, .logbtn {
+.regbtn,
+.logbtn {
   background-color: #472102;
   color: white;
   padding: 10px;
@@ -97,7 +101,8 @@
   justify-content: space-around;
 }
 
-.regbtn:hover, .logbtn:hover {
+.regbtn:hover,
+.logbtn:hover {
   background-color: black;
 }
 
